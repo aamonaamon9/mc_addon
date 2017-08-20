@@ -1,0 +1,3324 @@
+<h1>Version: 1.1.3.52</h1>
+<h2><p id="Index">Index</p></h2>
+<table border="1">
+<tr> <th> <a href="#Attributes">Attributes</a></th> </tr>
+<tr> <td> <a href="#minecraft:attack"> minecraft:attack</a> </tr> </td>
+<tr> <td> <a href="#minecraft:spell_effects"> minecraft:spell_effects</a> </tr> </td>
+<tr> <td> <a href="#minecraft:strength"> minecraft:strength</a> </tr> </td>
+<tr> <th> <a href="#Properties">Properties</a></th> </tr>
+<tr> <td> <a href="#minecraft:ambient_sound_interval"> minecraft:ambient_sound_interval</a> </tr> </td>
+<tr> <td> <a href="#minecraft:burns_in_daylight"> minecraft:burns_in_daylight</a> </tr> </td>
+<tr> <td> <a href="#minecraft:can_climb"> minecraft:can_climb</a> </tr> </td>
+<tr> <td> <a href="#minecraft:can_fly"> minecraft:can_fly</a> </tr> </td>
+<tr> <td> <a href="#minecraft:can_power_jump"> minecraft:can_power_jump</a> </tr> </td>
+<tr> <td> <a href="#minecraft:collision_box"> minecraft:collision_box</a> </tr> </td>
+<tr> <td> <a href="#minecraft:color"> minecraft:color</a> </tr> </td>
+<tr> <td> <a href="#minecraft:default_look_angle"> minecraft:default_look_angle</a> </tr> </td>
+<tr> <td> <a href="#minecraft:equipment"> minecraft:equipment</a> </tr> </td>
+<tr> <td> <a href="#minecraft:fire_immune"> minecraft:fire_immune</a> </tr> </td>
+<tr> <td> <a href="#minecraft:floats_in_liquid"> minecraft:floats_in_liquid</a> </tr> </td>
+<tr> <td> <a href="#minecraft:flying_speed"> minecraft:flying_speed</a> </tr> </td>
+<tr> <td> <a href="#minecraft:foot_size"> minecraft:foot_size</a> </tr> </td>
+<tr> <td> <a href="#minecraft:friction_modifier"> minecraft:friction_modifier</a> </tr> </td>
+<tr> <td> <a href="#minecraft:ground_offset"> minecraft:ground_offset</a> </tr> </td>
+<tr> <td> <a href="#minecraft:hurt_when_wet"> minecraft:hurt_when_wet</a> </tr> </td>
+<tr> <td> <a href="#minecraft:identifier"> minecraft:identifier</a> </tr> </td>
+<tr> <td> <a href="#minecraft:input_ground_controlled"> minecraft:input_ground_controlled</a> </tr> </td>
+<tr> <td> <a href="#minecraft:is_baby"> minecraft:is_baby</a> </tr> </td>
+<tr> <td> <a href="#minecraft:is_charged"> minecraft:is_charged</a> </tr> </td>
+<tr> <td> <a href="#minecraft:is_chested"> minecraft:is_chested</a> </tr> </td>
+<tr> <td> <a href="#minecraft:is_dyeable"> minecraft:is_dyeable</a> </tr> </td>
+<tr> <td> <a href="#minecraft:is_ignited"> minecraft:is_ignited</a> </tr> </td>
+<tr> <td> <a href="#minecraft:is_saddled"> minecraft:is_saddled</a> </tr> </td>
+<tr> <td> <a href="#minecraft:is_shaking"> minecraft:is_shaking</a> </tr> </td>
+<tr> <td> <a href="#minecraft:is_sheared"> minecraft:is_sheared</a> </tr> </td>
+<tr> <td> <a href="#minecraft:is_stackable"> minecraft:is_stackable</a> </tr> </td>
+<tr> <td> <a href="#minecraft:is_tamed"> minecraft:is_tamed</a> </tr> </td>
+<tr> <td> <a href="#minecraft:item_controllable"> minecraft:item_controllable</a> </tr> </td>
+<tr> <td> <a href="#minecraft:loot"> minecraft:loot</a> </tr> </td>
+<tr> <td> <a href="#minecraft:mark_variant"> minecraft:mark_variant</a> </tr> </td>
+<tr> <td> <a href="#minecraft:push_through"> minecraft:push_through</a> </tr> </td>
+<tr> <td> <a href="#minecraft:scale"> minecraft:scale</a> </tr> </td>
+<tr> <td> <a href="#minecraft:sound_volume"> minecraft:sound_volume</a> </tr> </td>
+<tr> <td> <a href="#minecraft:type_family"> minecraft:type_family</a> </tr> </td>
+<tr> <td> <a href="#minecraft:variant"> minecraft:variant</a> </tr> </td>
+<tr> <td> <a href="#minecraft:walk_animation_speed"> minecraft:walk_animation_speed</a> </tr> </td>
+<tr> <td> <a href="#minecraft:wants_jockey"> minecraft:wants_jockey</a> </tr> </td>
+<tr> <th> <a href="#Components">Components</a></th> </tr>
+<tr> <td> <a href="#minecraft:addrider"> minecraft:addrider</a> </tr> </td>
+<tr> <td> <a href="#minecraft:ageable"> minecraft:ageable</a> </tr> </td>
+<tr> <td> <a href="#minecraft:agent_command"> minecraft:agent_command</a> </tr> </td>
+<tr> <td> <a href="#minecraft:angry"> minecraft:angry</a> </tr> </td>
+<tr> <td> <a href="#minecraft:boostable"> minecraft:boostable</a> </tr> </td>
+<tr> <td> <a href="#minecraft:breathable"> minecraft:breathable</a> </tr> </td>
+<tr> <td> <a href="#minecraft:breedable"> minecraft:breedable</a> </tr> </td>
+<tr> <td> <a href="#minecraft:damage_sensor"> minecraft:damage_sensor</a> </tr> </td>
+<tr> <td> <a href="#minecraft:environment_sensor"> minecraft:environment_sensor</a> </tr> </td>
+<tr> <td> <a href="#minecraft:equippable"> minecraft:equippable</a> </tr> </td>
+<tr> <td> <a href="#minecraft:explode"> minecraft:explode</a> </tr> </td>
+<tr> <td> <a href="#minecraft:healable"> minecraft:healable</a> </tr> </td>
+<tr> <td> <a href="#minecraft:interact"> minecraft:interact</a> </tr> </td>
+<tr> <td> <a href="#minecraft:inventory"> minecraft:inventory</a> </tr> </td>
+<tr> <td> <a href="#minecraft:item_hopper"> minecraft:item_hopper</a> </tr> </td>
+<tr> <td> <a href="#minecraft:jump.dynamic"> minecraft:jump.dynamic</a> </tr> </td>
+<tr> <td> <a href="#minecraft:jump.static"> minecraft:jump.static</a> </tr> </td>
+<tr> <td> <a href="#minecraft:leashable"> minecraft:leashable</a> </tr> </td>
+<tr> <td> <a href="#minecraft:lookat"> minecraft:lookat</a> </tr> </td>
+<tr> <td> <a href="#minecraft:movement.basic"> minecraft:movement.basic</a> </tr> </td>
+<tr> <td> <a href="#minecraft:movement.jump"> minecraft:movement.jump</a> </tr> </td>
+<tr> <td> <a href="#minecraft:movement.skip"> minecraft:movement.skip</a> </tr> </td>
+<tr> <td> <a href="#minecraft:movement.sway"> minecraft:movement.sway</a> </tr> </td>
+<tr> <td> <a href="#minecraft:nameable"> minecraft:nameable</a> </tr> </td>
+<tr> <td> <a href="#minecraft:navigation.climb"> minecraft:navigation.climb</a> </tr> </td>
+<tr> <td> <a href="#minecraft:navigation.float"> minecraft:navigation.float</a> </tr> </td>
+<tr> <td> <a href="#minecraft:navigation.swim"> minecraft:navigation.swim</a> </tr> </td>
+<tr> <td> <a href="#minecraft:navigation.walk"> minecraft:navigation.walk</a> </tr> </td>
+<tr> <td> <a href="#minecraft:npc"> minecraft:npc</a> </tr> </td>
+<tr> <td> <a href="#minecraft:peek"> minecraft:peek</a> </tr> </td>
+<tr> <td> <a href="#minecraft:projectile"> minecraft:projectile</a> </tr> </td>
+<tr> <td> <a href="#minecraft:rail_movement"> minecraft:rail_movement</a> </tr> </td>
+<tr> <td> <a href="#minecraft:rail_sensor"> minecraft:rail_sensor</a> </tr> </td>
+<tr> <td> <a href="#minecraft:rideable"> minecraft:rideable</a> </tr> </td>
+<tr> <td> <a href="#minecraft:scale_by_age"> minecraft:scale_by_age</a> </tr> </td>
+<tr> <td> <a href="#minecraft:shareables"> minecraft:shareables</a> </tr> </td>
+<tr> <td> <a href="#minecraft:shooter"> minecraft:shooter</a> </tr> </td>
+<tr> <td> <a href="#minecraft:sittable"> minecraft:sittable</a> </tr> </td>
+<tr> <td> <a href="#minecraft:spawn_entity"> minecraft:spawn_entity</a> </tr> </td>
+<tr> <td> <a href="#minecraft:tameable"> minecraft:tameable</a> </tr> </td>
+<tr> <td> <a href="#minecraft:tamemount"> minecraft:tamemount</a> </tr> </td>
+<tr> <td> <a href="#minecraft:target_nearby_sensor"> minecraft:target_nearby_sensor</a> </tr> </td>
+<tr> <td> <a href="#minecraft:teleport"> minecraft:teleport</a> </tr> </td>
+<tr> <td> <a href="#minecraft:timer"> minecraft:timer</a> </tr> </td>
+<tr> <td> <a href="#minecraft:trade_table"> minecraft:trade_table</a> </tr> </td>
+<tr> <td> <a href="#minecraft:transformation"> minecraft:transformation</a> </tr> </td>
+<tr> <th> <a href="#EntityTriggers">Entity Triggers</a></th> </tr>
+<tr> <th> <a href="#Filters">Filters</a></th> </tr>
+<tr> <th> <a href="#Conditions">Environment Filter Conditions</a></th> </tr>
+<tr> <th> <a href="#Biomes">Biomes</a></th> </tr>
+<tr> <th> <a href="#AIGoals">AI Goals</a></th> </tr>
+</table>
+<a href="#Index">Back to top</a>
+
+<h2><p id="Properties">Properties</p></h2>
+<h3><p id="minecraft:ambient_sound_interval">minecraft:ambient_sound_interval</p></h3>
+
+<h4>Description</h4>
+
+Sets the entity's delay between playing its ambient sound.
+
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:burns_in_daylight">minecraft:burns_in_daylight</p></h3>
+
+<h4>Description</h4>
+
+Sets that this entity burns if exposed to daylight.
+
+<h4>Vanilla Entities that use this</h4>
+minecraft:zombie_villager, 
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:can_climb">minecraft:can_climb</p></h3>
+
+<h4>Description</h4>
+
+Allows this entity to climb up ladders.
+
+<h4>Vanilla Entities that use this</h4>
+minecraft:evocation_illager, 
+minecraft:zombie_villager, 
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:can_fly">minecraft:can_fly</p></h3>
+
+<h4>Description</h4>
+
+Marks the entity as being able to fly, the pathfinder won't be restricted to paths where a solid block is required underneath it.
+
+<h4>Vanilla Entities that use this</h4>
+minecraft:wither, 
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:can_power_jump">minecraft:can_power_jump</p></h3>
+
+<h4>Description</h4>
+
+Allows the entity to power jump like the horse does in vanilla.
+
+<h4>Vanilla Entities that use this</h4>
+minecraft:horse, 
+minecraft:mule, 
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:collision_box">minecraft:collision_box</p></h3>
+
+<h4>Description</h4>
+
+Sets the width and height of the Entity's collision box.
+
+<h4>Parameters</h4>
+
+<table border="1">
+<tr> <th>Name</th> <th>Type</th> <th>Default</th> <th>Description</th> </tr>
+<tr>
+<td>width</td>
+<td>Decimal</td>
+<td>1</td>
+<td>Width and Depth of the Collision Box in Blocks</td>
+</tr>
+<tr>
+<td>height</td>
+<td>Decimal</td>
+<td>1</td>
+<td>Height of the Collision Box in Blocks</td>
+</tr>
+</table>
+<h4>Vanilla Entities that use this</h4>
+minecraft:horse, 
+minecraft:evocation_illager, 
+minecraft:zombie_villager, 
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:color">minecraft:color</p></h3>
+
+<h4>Description</h4>
+
+Defines the entity's color
+
+<h4>Parameters</h4>
+
+<table border="1">
+<tr> <th>Name</th> <th>Type</th> <th>Default</th> <th>Description</th> </tr>
+<tr>
+<td>value</td>
+<td>Integer</td>
+<td>0</td>
+<td>The Palette Color value of the entity</td>
+</tr>
+</table>
+<h4>Vanilla Entities that use this</h4>
+minecraft:wolf, 
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:default_look_angle">minecraft:default_look_angle</p></h3>
+
+<h4>Description</h4>
+
+Sets this entity's default head rotation angle.
+
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:equipment">minecraft:equipment</p></h3>
+
+<h4>Description</h4>
+
+Sets the Equipment table to use for this Entity
+
+<h4>Parameters</h4>
+
+<table border="1">
+<tr> <th>Name</th> <th>Type</th> <th>Default</th> <th>Description</th> </tr>
+<tr>
+<td>table</td>
+<td>String</td>
+<td></td>
+<td>The path to the equipment table, relative to the Behavior Pack's root</td>
+</tr>
+</table>
+<h4>Vanilla Entities that use this</h4>
+minecraft:zombie_pigman, 
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:fire_immune">minecraft:fire_immune</p></h3>
+
+<h4>Description</h4>
+
+Sets that this entity doesn't take damage from fire.
+
+<h4>Vanilla Entities that use this</h4>
+minecraft:zombie_pigman, 
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:floats_in_liquid">minecraft:floats_in_liquid</p></h3>
+
+<h4>Description</h4>
+
+Sets that this entity can float in liquid blocks.
+
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:flying_speed">minecraft:flying_speed</p></h3>
+
+<h4>Description</h4>
+
+Speed in Blocks that this entity flies at.
+
+<h4>Parameters</h4>
+
+<table border="1">
+<tr> <th>Name</th> <th>Type</th> <th>Default</th> <th>Description</th> </tr>
+<tr>
+<td>value</td>
+<td>Decimal</td>
+<td>0</td>
+<td>Flying speed in blocks per tick</td>
+</tr>
+</table>
+<h4>Vanilla Entities that use this</h4>
+minecraft:ender_dragon, 
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:foot_size">minecraft:foot_size</p></h3>
+
+<h4>Description</h4>
+
+Sets the number of blocks the entity can step without jumping.
+
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:friction_modifier">minecraft:friction_modifier</p></h3>
+
+<h4>Description</h4>
+
+Defines how much does friction affect this entity.
+
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:ground_offset">minecraft:ground_offset</p></h3>
+
+<h4>Description</h4>
+
+Sets the offset from the ground that the entity is actually at.
+
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:hurt_when_wet">minecraft:hurt_when_wet</p></h3>
+
+<h4>Description</h4>
+
+Sets that this entity will take damage when it is wet.
+
+<h4>Vanilla Entities that use this</h4>
+minecraft:enderman, 
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:identifier">minecraft:identifier</p></h3>
+
+<h4>Description</h4>
+
+Sets the name for this entity's description.
+
+<h4>Parameters</h4>
+
+<table border="1">
+<tr> <th>Name</th> <th>Type</th> <th>Default</th> <th>Description</th> </tr>
+<tr>
+<td>id</td>
+<td>String</td>
+<td></td>
+<td>The identifier by which this entity definition can be recognized. Should be unique</td>
+</tr>
+</table>
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:input_ground_controlled">minecraft:input_ground_controlled</p></h3>
+
+<h4>Description</h4>
+
+When configured as a rideable entity, the entity will be controlled using WASD controls.
+
+<h4>Vanilla Entities that use this</h4>
+minecraft:horse, 
+minecraft:mule, 
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:is_baby">minecraft:is_baby</p></h3>
+
+<h4>Description</h4>
+
+Sets that this entity is a baby.
+
+<h4>Vanilla Entities that use this</h4>
+minecraft:horse, 
+minecraft:zombie_villager, 
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:is_charged">minecraft:is_charged</p></h3>
+
+<h4>Description</h4>
+
+Sets that this entity is charged.
+
+<h4>Vanilla Entities that use this</h4>
+minecraft:creeper, 
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:is_chested">minecraft:is_chested</p></h3>
+
+<h4>Description</h4>
+
+Sets that this entity is currently carrying a chest.
+
+<h4>Vanilla Entities that use this</h4>
+minecraft:llama, 
+minecraft:mule, 
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:is_dyeable">minecraft:is_dyeable</p></h3>
+
+<h4>Description</h4>
+
+Allows dyes to be used on this entity to change its color.
+
+<h4>Parameters</h4>
+
+<table border="1">
+<tr> <th>Name</th> <th>Type</th> <th>Default</th> <th>Description</th> </tr>
+<tr>
+<td>interact_text</td>
+<td>String</td>
+<td></td>
+<td>The text that will display when interacting with this entity with a dye when playing with Touch-screen controls</td>
+</tr>
+</table>
+<h4>Vanilla Entities that use this</h4>
+minecraft:wolf, 
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:is_ignited">minecraft:is_ignited</p></h3>
+
+<h4>Description</h4>
+
+Sets that this entity is currently on fire.
+
+<h4>Vanilla Entities that use this</h4>
+minecraft:tnt_minecart, 
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:is_saddled">minecraft:is_saddled</p></h3>
+
+<h4>Description</h4>
+
+Sets that this entity is currently saddled.
+
+<h4>Vanilla Entities that use this</h4>
+minecraft:horse, 
+minecraft:pig, 
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:is_shaking">minecraft:is_shaking</p></h3>
+
+<h4>Description</h4>
+
+Sets that this entity is currently shaking.
+
+<h4>Vanilla Entities that use this</h4>
+minecraft:zombie_villager, 
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:is_sheared">minecraft:is_sheared</p></h3>
+
+<h4>Description</h4>
+
+Sets that this entity is currently sheared.
+
+<h4>Vanilla Entities that use this</h4>
+minecraft:snow_golem, 
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:is_stackable">minecraft:is_stackable</p></h3>
+
+<h4>Description</h4>
+
+Sets that this entity can be stacked.
+
+<h4>Vanilla Entities that use this</h4>
+minecraft:tnt_minecart, 
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:is_tamed">minecraft:is_tamed</p></h3>
+
+<h4>Description</h4>
+
+Sets that this entity is currently tamed.
+
+<h4>Vanilla Entities that use this</h4>
+minecraft:horse, 
+minecraft:zombie_horse, 
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:item_controllable">minecraft:item_controllable</p></h3>
+
+<h4>Description</h4>
+
+Defines what items can be used to control this entity while ridden
+
+<h4>Parameters</h4>
+
+<table border="1">
+<tr> <th>Name</th> <th>Type</th> <th>Default</th> <th>Description</th> </tr>
+<tr>
+<td>control_items</td>
+<td>List</td>
+<td></td>
+<td>List of items that can be used to control this entity</td>
+</tr>
+</table>
+<h4>Vanilla Entities that use this</h4>
+minecraft:pig, 
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:loot">minecraft:loot</p></h3>
+
+<h4>Description</h4>
+
+Sets the loot table for what items this entity drops upon death.
+
+<h4>Parameters</h4>
+
+<table border="1">
+<tr> <th>Name</th> <th>Type</th> <th>Default</th> <th>Description</th> </tr>
+<tr>
+<td>table</td>
+<td>String</td>
+<td></td>
+<td>The path to the loot table, relative to the Behavior Pack's root</td>
+</tr>
+</table>
+<h4>Vanilla Entities that use this</h4>
+minecraft:horse, 
+minecraft:evocation_illager, 
+minecraft:zombie_villager, 
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:mark_variant">minecraft:mark_variant</p></h3>
+
+<h4>Description</h4>
+
+Additional variant value. Can be used to further differentiate variants.
+
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:push_through">minecraft:push_through</p></h3>
+
+<h4>Description</h4>
+
+Sets the distance through which the entity can push through.
+
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:scale">minecraft:scale</p></h3>
+
+<h4>Description</h4>
+
+Sets the entity's visual size.
+
+<h4>Parameters</h4>
+
+<table border="1">
+<tr> <th>Name</th> <th>Type</th> <th>Default</th> <th>Description</th> </tr>
+<tr>
+<td>value</td>
+<td>Decimal</td>
+<td>1</td>
+<td>The value of the scale. 1.0 means the entity will appear at the scale they are defined in their model. Higher numbers make the entity bigger</td>
+</tr>
+</table>
+<h4>Vanilla Entities that use this</h4>
+minecraft:llama, 
+minecraft:zombie_villager, 
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:sound_volume">minecraft:sound_volume</p></h3>
+
+<h4>Description</h4>
+
+Sets the entity's base volume for sound effects.
+
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:type_family">minecraft:type_family</p></h3>
+
+<h4>Description</h4>
+
+Defines the families this entity belongs to.
+
+<h4>Parameters</h4>
+
+<table border="1">
+<tr> <th>Name</th> <th>Type</th> <th>Default</th> <th>Description</th> </tr>
+<tr>
+<td>family</td>
+<td>List</td>
+<td></td>
+<td>List of family names</td>
+</tr>
+</table>
+<h4>Vanilla Entities that use this</h4>
+minecraft:horse, 
+minecraft:evocation_illager, 
+minecraft:zombie_villager, 
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:variant">minecraft:variant</p></h3>
+
+<h4>Description</h4>
+
+Used to differentiate the component group of a variant of an entity from others (e.g. ocelot, villager)
+
+<h4>Parameters</h4>
+
+<table border="1">
+<tr> <th>Name</th> <th>Type</th> <th>Default</th> <th>Description</th> </tr>
+<tr>
+<td>value</td>
+<td>Integer</td>
+<td>1</td>
+<td>The ID of the variant. By convention, 0 is the ID of the base entity</td>
+</tr>
+</table>
+<h4>Vanilla Entities that use this</h4>
+minecraft:llama, 
+minecraft:zombie_villager, 
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:walk_animation_speed">minecraft:walk_animation_speed</p></h3>
+
+<h4>Description</h4>
+
+Sets the speed multiplier for this entity's walk animation speed.
+
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:wants_jockey">minecraft:wants_jockey</p></h3>
+
+<h4>Description</h4>
+
+Sets that this entity wants to become a jockey.
+
+<a href="#Index">Back to top</a><br><br>
+
+
+<h2><p id="Attributes">Attributes</p></h2>
+<h3><p id="minecraft:attack">minecraft:attack</p></h3>
+
+<h4>Description</h4>
+
+Defines an entity's melee attack and any additional effects on it.
+
+<h4>Parameters</h4>
+
+<table border="1">
+<tr> <th>Name</th> <th>Type</th> <th>Default</th> <th>Description</th> </tr>
+<tr>
+<td>damage</td>
+<td>Range [a, b]</td>
+<td></td>
+<td>Range of the random amount of damage the melee attack deals</td>
+</tr>
+<tr>
+<td>effect_duration</td>
+<td>Decimal</td>
+<td>0</td>
+<td>Duration in seconds of the status ailment applied to the damaged entity</td>
+</tr>
+<tr>
+<td>effect_name</td>
+<td>String</td>
+<td></td>
+<td>Name of the status ailment to apply to an entity attacked by this entity's melee attack</td>
+</tr>
+</table>
+<h4>Vanilla Entities that use this</h4>
+minecraft:zombie_villager, 
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:spell_effects">minecraft:spell_effects</p></h3>
+
+<h4>Description</h4>
+
+Defines what mob effects to add and remove to the entity when adding this component.
+
+<h4>Parameters</h4>
+
+<table border="1">
+<tr> <th>Name</th> <th>Type</th> <th>Default</th> <th>Description</th> </tr>
+<tr>
+<td>add_effects</td>
+<td>String</td>
+<td></td>
+<td>List of effects to add to this entity after adding this component</td>
+</tr>
+<tr>
+<td>remove_effects</td>
+<td>List</td>
+<td></td>
+<td>List of names of effects to be removed from this entity after adding this component</td>
+</tr>
+</table>
+<h4>Vanilla Entities that use this</h4>
+minecraft:zombie_villager, 
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:strength">minecraft:strength</p></h3>
+
+<h4>Description</h4>
+
+Defines the entity's strength to carry items
+
+<h4>Vanilla Entities that use this</h4>
+minecraft:llama, 
+<a href="#Index">Back to top</a><br><br>
+
+
+<h2><p id="Components">Components</p></h2>
+<h3><p id="minecraft:addrider">minecraft:addrider</p></h3>
+
+<h4>Description</h4>
+
+Adds a rider to the entity. Requires minecraft:rideable.
+
+<h4>Parameters</h4>
+
+<table border="1">
+<tr> <th>Name</th> <th>Type</th> <th>Default</th> <th>Description</th> </tr>
+<tr>
+<td>entity_type</td>
+<td>String</td>
+<td></td>
+<td>The entity type that will be riding this entity.</td>
+</tr>
+</table>
+<h4>Vanilla Entities that use this</h4>
+minecraft:spider, 
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:ageable">minecraft:ageable</p></h3>
+
+<h4>Description</h4>
+
+Adds a timer for the entity to grow up. It can be accelerated by giving the entity the items it likes as defined by feedItems.
+
+<h4>Parameters</h4>
+
+<table border="1">
+<tr> <th>Name</th> <th>Type</th> <th>Default</th> <th>Description</th> </tr>
+<tr>
+<td>duration</td>
+<td>Decimal</td>
+<td>1200</td>
+<td>Amount of time before the entity grows</td>
+</tr>
+<tr>
+<td>grow_up</td>
+<td>Trigger</td>
+<td></td>
+<td>Event to run when this entity grows up</td>
+</tr>
+<tr>
+<td>feedItems</td>
+<td>String</td>
+<td></td>
+<td>List of items that can be fed to the entity. Includes 'item' for the item name and 'growth' to define how much time it grows up by</td>
+</tr>
+</table>
+<h4>Vanilla Entities that use this</h4>
+minecraft:horse, 
+minecraft:villager, 
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:angry">minecraft:angry</p></h3>
+
+<h4>Description</h4>
+
+Defines the entity's 'angry' state using a timer.
+
+<h4>Parameters</h4>
+
+<table border="1">
+<tr> <th>Name</th> <th>Type</th> <th>Default</th> <th>Description</th> </tr>
+<tr>
+<td>broadcastAnger</td>
+<td>Boolean</td>
+<td>false</td>
+<td>If true, other entities of the same entity definition within the broadcastRange will also become angry</td>
+</tr>
+<tr>
+<td>duration</td>
+<td>Integer</td>
+<td>25</td>
+<td>The amount of time in seconds that the entity will be angry</td>
+</tr>
+<tr>
+<td>calm_event</td>
+<td>Trigger</td>
+<td></td>
+<td>Event to run after the number of seconds specified in duration expires (when the entity stops being 'angry'</td>
+</tr>
+<tr>
+<td>broadcastRange</td>
+<td>Integer</td>
+<td>20</td>
+<td>Distance in blocks within which other entities of the same entity definition will become angry</td>
+</tr>
+</table>
+<h4>Vanilla Entities that use this</h4>
+minecraft:llama, 
+minecraft:zombie_pigman, 
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:boostable">minecraft:boostable</p></h3>
+
+<h4>Description</h4>
+
+Defines the conditions and behavior of a rideable entity's boost
+
+<h4>Parameters</h4>
+
+<table border="1">
+<tr> <th>Name</th> <th>Type</th> <th>Default</th> <th>Description</th> </tr>
+<tr>
+<td>speed_multiplier</td>
+<td>Decimal</td>
+<td>1</td>
+<td>Factor by which the entity's normal speed increases. E.g. 2.0 means go twice as fast</td>
+</tr>
+<tr>
+<td>duration</td>
+<td>Decimal</td>
+<td>3</td>
+<td>Time in seconds for the boost</td>
+</tr>
+<tr>
+<td>boost_items</td>
+<td>String</td>
+<td></td>
+<td>List of items that can be used to boost while riding this entity</td>
+</tr>
+</table>
+<h4>Vanilla Entities that use this</h4>
+minecraft:pig, 
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:breathable">minecraft:breathable</p></h3>
+
+<h4>Description</h4>
+
+Defines what blocks this entity can breathe in and gives them the ability to suffocate
+
+<h4>Parameters</h4>
+
+<table border="1">
+<tr> <th>Name</th> <th>Type</th> <th>Default</th> <th>Description</th> </tr>
+<tr>
+<td>breathesAir</td>
+<td>Boolean</td>
+<td>true</td>
+<td>If true, this entity can breathe in air</td>
+</tr>
+<tr>
+<td>breathesWater</td>
+<td>Boolean</td>
+<td>false</td>
+<td>If true, this entity can breathe in water</td>
+</tr>
+<tr>
+<td>totalSupply</td>
+<td>Integer</td>
+<td>15</td>
+<td>Time in seconds the entity can hold its breath</td>
+</tr>
+<tr>
+<td>suffocateTime</td>
+<td>Integer</td>
+<td>-20</td>
+<td>Time in seconds between suffocation damage</td>
+</tr>
+<tr>
+<td>generatesBubbles</td>
+<td>Boolean</td>
+<td>true</td>
+<td>If true, this entity will have visible bubbles while in water</td>
+</tr>
+<tr>
+<td>breathesSolids</td>
+<td>Boolean</td>
+<td>false</td>
+<td>If true, this entity can breathe in solid blocks</td>
+</tr>
+<tr>
+<td>breathesLava</td>
+<td>Boolean</td>
+<td>false</td>
+<td>If true, this entity can breathe in lava</td>
+</tr>
+<tr>
+<td>nonBreatheBlocks</td>
+<td>List</td>
+<td></td>
+<td>List of blocks this entity can't breathe in, in addition to the above</td>
+</tr>
+<tr>
+<td>breatheBlocks</td>
+<td>List</td>
+<td></td>
+<td>List of blocks this entity can breathe in, in addition to the above</td>
+</tr>
+</table>
+<h4>Vanilla Entities that use this</h4>
+minecraft:horse, 
+minecraft:evocation_illager, 
+minecraft:zombie_villager, 
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:breedable">minecraft:breedable</p></h3>
+
+<h4>Description</h4>
+
+Defines the way an entity can get into the 'love' state.
+
+<h4>Parameters</h4>
+
+<table border="1">
+<tr> <th>Name</th> <th>Type</th> <th>Default</th> <th>Description</th> </tr>
+<tr>
+<td>requireTame</td>
+<td>Boolean</td>
+<td>true</td>
+<td>If true, the entities need to be tamed first before they can breed.</td>
+</tr>
+<tr>
+<td>inheritTamed</td>
+<td>Boolean</td>
+<td>true</td>
+<td>If true, the babies will be automatically tamed if its parents are</td>
+</tr>
+<tr>
+<td>allowSitting</td>
+<td>Boolean</td>
+<td>false</td>
+<td>If true, entities can breed while sitting</td>
+</tr>
+<tr>
+<td>breedCooldown</td>
+<td>Decimal</td>
+<td>60</td>
+<td>Time in seconds before the Entity can breed again</td>
+</tr>
+<tr>
+<td>extraBabyChance</td>
+<td>Decimal</td>
+<td>0</td>
+<td>Chance that up to 16 babies will spawn between 0.0 and 1.0, where 1.0 is 100%</td>
+</tr>
+<tr>
+<td>mutation_factor</td>
+<td>String</td>
+<td></td>
+<td>Determines how likely the babies are to NOT inherit one of their parent's variances. Values are between 0.0 and 1.0, with a higher number meaning more likely to mutate</td>
+</tr>
+<tr>
+<td>extra_variant</td>
+<td>Decimal</td>
+<td>0</td>
+<td>The percentage chance of a mutation on the entity's extra variant type</td>
+</tr>
+<tr>
+<td>variant</td>
+<td>Decimal</td>
+<td>0</td>
+<td>The percentage chance of a mutation on the entity's variant type</td>
+</tr>
+<tr>
+<td>color</td>
+<td>Decimal</td>
+<td>0</td>
+<td>The percentage chance of a mutation on the entity's color</td>
+</tr>
+<tr>
+<td>breedItems</td>
+<td>List</td>
+<td></td>
+<td>The list of items that can be used to get the entity into the 'love' state</td>
+</tr>
+<tr>
+<td>babyType</td>
+<td>String</td>
+<td></td>
+<td>The entity definition of this entity's babies</td>
+</tr>
+<tr>
+<td>mateType</td>
+<td>String</td>
+<td></td>
+<td>The entity definition of this entity's mate</td>
+</tr>
+<tr>
+<td>breedsWith</td>
+<td>String</td>
+<td></td>
+<td>The list of entity definitions that this entity can breed with</td>
+</tr>
+<tr>
+<td>breed_event</td>
+<td>Trigger</td>
+<td></td>
+<td>Event to run when this entity breeds</td>
+</tr>
+</table>
+<h4>Vanilla Entities that use this</h4>
+minecraft:horse, 
+minecraft:pig, 
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:damage_sensor">minecraft:damage_sensor</p></h3>
+
+<h4>Description</h4>
+
+Defines what events to call when this entity is damaged by specific entities or items
+
+<h4>Parameters</h4>
+
+<table border="1">
+<tr> <th>Name</th> <th>Type</th> <th>Default</th> <th>Description</th> </tr>
+<tr>
+<td>cause</td>
+<td>String</td>
+<td></td>
+<td>Type of damage that triggers this set of events</td>
+</tr>
+<tr>
+<td>deals_damage</td>
+<td>Boolean</td>
+<td>true</td>
+<td>If true, the damage dealt to the entity will take off health from it. Set to false to make the entity ignore that damage</td>
+</tr>
+<tr>
+<td>on_damage</td>
+<td>Trigger</td>
+<td></td>
+<td>List of triggers with the events to call when taking this specific kind of damage. Allows specifying filters for entity definitions and events</td>
+</tr>
+</table>
+<h4>Vanilla Entities that use this</h4>
+minecraft:llama, 
+minecraft:villager, 
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:environment_sensor">minecraft:environment_sensor</p></h3>
+
+<h4>Description</h4>
+
+Creates a trigger based on environment conditions.
+
+<h4>Parameters</h4>
+
+<table border="1">
+<tr> <th>Name</th> <th>Type</th> <th>Default</th> <th>Description</th> </tr>
+<tr>
+<td>on_environment</td>
+<td>Trigger</td>
+<td></td>
+<td>The list of triggers that fire when the environment conditions match the given filter criteria.</td>
+</tr>
+</table>
+<h4>Vanilla Entities that use this</h4>
+minecraft:spider, 
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:equippable">minecraft:equippable</p></h3>
+
+<h4>Description</h4>
+
+Defines an entity's behavior for having items equipped to it
+
+<h4>Parameters</h4>
+
+<table border="1">
+<tr> <th>Name</th> <th>Type</th> <th>Default</th> <th>Description</th> </tr>
+<tr>
+<td>slots</td>
+<td>String</td>
+<td></td>
+<td>List of slots and the item that can be equipped</td>
+</tr>
+</table>
+<h4>Vanilla Entities that use this</h4>
+minecraft:horse, 
+minecraft:mule, 
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:explode">minecraft:explode</p></h3>
+
+<h4>Description</h4>
+
+Defines how the entity explodes.
+
+<h4>Parameters</h4>
+
+<table border="1">
+<tr> <th>Name</th> <th>Type</th> <th>Default</th> <th>Description</th> </tr>
+<tr>
+<td>fuseLength</td>
+<td>Range [a, b]</td>
+<td></td>
+<td>The range for the random amount of time the fuse will be lit before exploding. A negative value means the explosion will be immediate</td>
+</tr>
+<tr>
+<td>power</td>
+<td>Decimal</td>
+<td>3</td>
+<td>The radius of the explosion in blocks and the amount of damage the explosion deals</td>
+</tr>
+<tr>
+<td>maxResistance</td>
+<td>Decimal</td>
+<td>-2147483648</td>
+<td>Blocks with less resistance than this value will be broken by the explosion</td>
+</tr>
+<tr>
+<td>breaks_blocks</td>
+<td>Boolean</td>
+<td>true</td>
+<td>If true, the explosion will destroy blocks in the explosion radius</td>
+</tr>
+<tr>
+<td>causesFire</td>
+<td>Boolean</td>
+<td>false</td>
+<td>If true, blocks in the explosion radius will be set on fire</td>
+</tr>
+<tr>
+<td>fuseLit</td>
+<td>Boolean</td>
+<td>false</td>
+<td>If true, the fuse is already lit when this component is added to the entity</td>
+</tr>
+<tr>
+<td>destroyAffectedByGriefing</td>
+<td>Boolean</td>
+<td>false</td>
+<td>If true, whether the explosion breaks blocks is affected by the mob griefing game rule</td>
+</tr>
+<tr>
+<td>fireAffectedByGriefing</td>
+<td>Boolean</td>
+<td>false</td>
+<td>If true, whether the explosion causes fire is affected by the mob griefing game rule</td>
+</tr>
+</table>
+<h4>Vanilla Entities that use this</h4>
+minecraft:wither_skull_dangerous, 
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:healable">minecraft:healable</p></h3>
+
+<h4>Description</h4>
+
+Defines the interactions with this entity for healing it.
+
+<h4>Parameters</h4>
+
+<table border="1">
+<tr> <th>Name</th> <th>Type</th> <th>Default</th> <th>Description</th> </tr>
+<tr>
+<td>items</td>
+<td>String</td>
+<td></td>
+<td>The list of items that can be used to heal this entity</td>
+</tr>
+</table>
+<h4>Vanilla Entities that use this</h4>
+minecraft:horse, 
+minecraft:mule, 
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:interact">minecraft:interact</p></h3>
+
+<h4>Description</h4>
+
+Defines interactions with this entity.
+
+<h4>Parameters</h4>
+
+<table border="1">
+<tr> <th>Name</th> <th>Type</th> <th>Default</th> <th>Description</th> </tr>
+<tr>
+<td>use_item</td>
+<td>Boolean</td>
+<td>false</td>
+<td>If true, the interaction will use an item</td>
+</tr>
+<tr>
+<td>cooldown</td>
+<td>Decimal</td>
+<td>0</td>
+<td>Time in seconds before this entity can be interacted with again</td>
+</tr>
+<tr>
+<td>swing</td>
+<td>Boolean</td>
+<td>false</td>
+<td>If true, the player will do the 'swing' animation when interacting with this entity</td>
+</tr>
+<tr>
+<td>hurt_item</td>
+<td>Integer</td>
+<td>0</td>
+<td>The amount of damage the item will take when used to interact with this entity. A value of 0 means the item won't lose durability</td>
+</tr>
+<tr>
+<td>interact_text</td>
+<td>String</td>
+<td></td>
+<td>Text to show when the player is able to interact in this way with this entity when playing with Touch-screen controls</td>
+</tr>
+<tr>
+<td>table</td>
+<td>String</td>
+<td></td>
+<td>File path, relative to the Behavior Pack's path, to the loot table file</td>
+</tr>
+<tr>
+<td>add_items</td>
+<td>String</td>
+<td></td>
+<td>Loot table with items to add to the player's inventory upon successful interaction</td>
+</tr>
+<tr>
+<td>spawn_items</td>
+<td>String</td>
+<td></td>
+<td>Loot table with items to drop on the ground upon successful interaction</td>
+</tr>
+<tr>
+<td>transform_to_item</td>
+<td>String</td>
+<td></td>
+<td>The item used will transform to this item upon successful interaction. Format: itemName:auxValue</td>
+</tr>
+<tr>
+<td>play_sounds</td>
+<td>List</td>
+<td></td>
+<td>List of sounds to play when the interaction occurs</td>
+</tr>
+<tr>
+<td>on_interact</td>
+<td>Trigger</td>
+<td></td>
+<td>Event to fire when the interaction occurs</td>
+</tr>
+</table>
+<h4>Vanilla Entities that use this</h4>
+minecraft:llama, 
+minecraft:zombie_villager, 
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:inventory">minecraft:inventory</p></h3>
+
+<h4>Description</h4>
+
+Defines this entity's inventory properties.
+
+<h4>Parameters</h4>
+
+<table border="1">
+<tr> <th>Name</th> <th>Type</th> <th>Default</th> <th>Description</th> </tr>
+<tr>
+<td>container_type</td>
+<td>String</td>
+<td>none</td>
+<td>Type of container this entity has. Can be horse, minecart_chest, minecart_hopper, inventory, container or hopper</td>
+</tr>
+<tr>
+<td>can_be_siphoned_from</td>
+<td>Boolean</td>
+<td>false</td>
+<td>If true, the contents of this inventory can be removed by a hopper</td>
+</tr>
+<tr>
+<td>linked_slots_size</td>
+<td>Integer</td>
+<td>0</td>
+<td>Number of linked slots (e.g. Player Hotbar) the container has</td>
+</tr>
+<tr>
+<td>inventory_size</td>
+<td>Integer</td>
+<td>5</td>
+<td>Number of slots the container has</td>
+</tr>
+<tr>
+<td>restrict_to_owner</td>
+<td>Boolean</td>
+<td>false</td>
+<td>If true, the entity's inventory can only be accessed by its owner or itself</td>
+</tr>
+<tr>
+<td>private</td>
+<td>Boolean</td>
+<td>false</td>
+<td>If true, only the entity can access the inventory</td>
+</tr>
+</table>
+<h4>Vanilla Entities that use this</h4>
+minecraft:horse, 
+minecraft:villager, 
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:item_hopper">minecraft:item_hopper</p></h3>
+
+<h4>Description</h4>
+
+Determines that this entity is an item hopper
+
+<h4>Vanilla Entities that use this</h4>
+minecraft:hopper_minecart, 
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:jump.dynamic">minecraft:jump.dynamic</p></h3>
+
+<h4>Description</h4>
+
+Defines a dynamic type jump control that will change jump properties based on the speed modifier of the mob.
+
+<h4>Vanilla Entities that use this</h4>
+minecraft:rabbit, 
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:jump.static">minecraft:jump.static</p></h3>
+
+<h4>Description</h4>
+
+Gives the entity the ability to jump.
+
+<h4>Vanilla Entities that use this</h4>
+minecraft:horse, 
+minecraft:evocation_illager, 
+minecraft:zombie_villager, 
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:leashable">minecraft:leashable</p></h3>
+
+<h4>Description</h4>
+
+Allows this entity to be leashed and Defines the conditions and events for this entity when is leashed.
+
+<h4>Parameters</h4>
+
+<table border="1">
+<tr> <th>Name</th> <th>Type</th> <th>Default</th> <th>Description</th> </tr>
+<tr>
+<td>max_distance</td>
+<td>Decimal</td>
+<td>10</td>
+<td>Distance in blocks at which the leash breaks</td>
+</tr>
+<tr>
+<td>hard_distance</td>
+<td>Decimal</td>
+<td>6</td>
+<td>Distance in blocks at which the leash stiffens, restricting movement</td>
+</tr>
+<tr>
+<td>soft_distance</td>
+<td>Decimal</td>
+<td>4</td>
+<td>Distance in blocks at which the 'spring' effect starts acting to keep this entity close to the entity that leashed it</td>
+</tr>
+<tr>
+<td>on_unleash</td>
+<td>Trigger</td>
+<td></td>
+<td>Event to call when this entity is unleashed</td>
+</tr>
+<tr>
+<td>on_leash</td>
+<td>Trigger</td>
+<td></td>
+<td>Event to call when this entity is leashed</td>
+</tr>
+</table>
+<h4>Vanilla Entities that use this</h4>
+minecraft:horse, 
+minecraft:zombie_horse, 
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:lookat">minecraft:lookat</p></h3>
+
+<h4>Description</h4>
+
+Defines the behavior when another entity looks at this entity.
+
+<h4>Parameters</h4>
+
+<table border="1">
+<tr> <th>Name</th> <th>Type</th> <th>Default</th> <th>Description</th> </tr>
+<tr>
+<td>setTarget</td>
+<td>Boolean</td>
+<td>true</td>
+<td>If true, this entity will set the attack target as the entity that looked at it</td>
+</tr>
+<tr>
+<td>look_event</td>
+<td>Trigger</td>
+<td></td>
+<td>Event to run when the entities specified in filters look at this entity</td>
+</tr>
+<tr>
+<td>look_cooldown</td>
+<td>Range [a, b]</td>
+<td></td>
+<td>The range for the random amount of time during which the entity is 'cooling down' and won't get angered or look for a target</td>
+</tr>
+<tr>
+<td>searchRadius</td>
+<td>Decimal</td>
+<td>10</td>
+<td>Maximum distance this entity will look for another entity looking at it</td>
+</tr>
+<tr>
+<td>filters</td>
+<td>List</td>
+<td>player</td>
+<td>Defines the entities that can trigger this component</td>
+</tr>
+<tr>
+<td>mAllowInvulnerable</td>
+<td>Boolean</td>
+<td>false</td>
+<td>If true, invulnerable entities (e.g. Players in creative mode) are considered valid targets</td>
+</tr>
+</table>
+<h4>Vanilla Entities that use this</h4>
+minecraft:enderman, 
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:movement.basic">minecraft:movement.basic</p></h3>
+
+<h4>Description</h4>
+
+This component accents the movement of an entity.
+
+<h4>Parameters</h4>
+
+<table border="1">
+<tr> <th>Name</th> <th>Type</th> <th>Default</th> <th>Description</th> </tr>
+<tr>
+<td>max_turn</td>
+<td>Decimal</td>
+<td>30</td>
+<td>The maximum number in degrees the mob can turn per tick.</td>
+</tr>
+</table>
+<h4>Vanilla Entities that use this</h4>
+minecraft:horse, 
+minecraft:evocation_illager, 
+minecraft:zombie_villager, 
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:movement.jump">minecraft:movement.jump</p></h3>
+
+<h4>Description</h4>
+
+Move control that causes the mob to jump as it moves with a specified delay between jumps.
+
+<h4>Parameters</h4>
+
+<table border="1">
+<tr> <th>Name</th> <th>Type</th> <th>Default</th> <th>Description</th> </tr>
+<tr>
+<td>jump_delay</td>
+<td>Range [a, b]</td>
+<td></td>
+<td>Delay after landing when using the slime move control.</td>
+</tr>
+<tr>
+<td>max_turn</td>
+<td>Decimal</td>
+<td>30</td>
+<td>The maximum number in degrees the mob can turn per tick.</td>
+</tr>
+</table>
+<h4>Vanilla Entities that use this</h4>
+minecraft:slime, 
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:movement.skip">minecraft:movement.skip</p></h3>
+
+<h4>Description</h4>
+
+This move control causes the mob to hop as it moves.
+
+<h4>Parameters</h4>
+
+<table border="1">
+<tr> <th>Name</th> <th>Type</th> <th>Default</th> <th>Description</th> </tr>
+<tr>
+<td>max_turn</td>
+<td>Decimal</td>
+<td>30</td>
+<td>The maximum number in degrees the mob can turn per tick.</td>
+</tr>
+</table>
+<h4>Vanilla Entities that use this</h4>
+minecraft:rabbit, 
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:movement.sway">minecraft:movement.sway</p></h3>
+
+<h4>Description</h4>
+
+This move control causes the mob to sway side to side giving the impression it is swimming.
+
+<h4>Parameters</h4>
+
+<table border="1">
+<tr> <th>Name</th> <th>Type</th> <th>Default</th> <th>Description</th> </tr>
+<tr>
+<td>max_turn</td>
+<td>Decimal</td>
+<td>30</td>
+<td>The maximum number in degrees the mob can turn per tick.</td>
+</tr>
+</table>
+<h4>Vanilla Entities that use this</h4>
+minecraft:guardian, 
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:nameable">minecraft:nameable</p></h3>
+
+<h4>Description</h4>
+
+Allows this entity to be named (e.g. using a name tag)
+
+<h4>Parameters</h4>
+
+<table border="1">
+<tr> <th>Name</th> <th>Type</th> <th>Default</th> <th>Description</th> </tr>
+<tr>
+<td>name_actions</td>
+<td>String</td>
+<td></td>
+<td>Describes the special names for this entity and the events to call when the entity acquires those names</td>
+</tr>
+<tr>
+<td>allowNameTagRenaming</td>
+<td>Boolean</td>
+<td>true</td>
+<td>If true, this entity can be renamed with name tags</td>
+</tr>
+<tr>
+<td>alwaysShow</td>
+<td>Boolean</td>
+<td>false</td>
+<td>If true, the name will always be shown</td>
+</tr>
+<tr>
+<td>default_trigger</td>
+<td>Trigger</td>
+<td></td>
+<td>Trigger to run when this entity is successfully renamed</td>
+</tr>
+</table>
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:navigation.climb">minecraft:navigation.climb</p></h3>
+
+<h4>Description</h4>
+
+Describes to the mobs pathfinder how it can generate paths.
+
+<h4>Parameters</h4>
+
+<table border="1">
+<tr> <th>Name</th> <th>Type</th> <th>Default</th> <th>Description</th> </tr>
+<tr>
+<td>can_pass_doors</td>
+<td>Boolean</td>
+<td>true</td>
+<td>Whether a path can be created through a door</td>
+</tr>
+<tr>
+<td>avoid_sun</td>
+<td>Boolean</td>
+<td>false</td>
+<td>Whether or not the pathfinder should avoid tiles that are exposed to the when creating paths</td>
+</tr>
+<tr>
+<td>can_float</td>
+<td>Boolean</td>
+<td>false</td>
+<td>Tells the pathfinder whether or not it can float in water</td>
+</tr>
+<tr>
+<td>avoid_portals</td>
+<td>Boolean</td>
+<td>false</td>
+<td>Tells the pathfinder to avoid portals (like nether portals) when finding a path</td>
+</tr>
+<tr>
+<td>avoid_water</td>
+<td>Boolean</td>
+<td>false</td>
+<td>Tells the pathfinder to avoid water when creating a path</td>
+</tr>
+<tr>
+<td>can_open_doors</td>
+<td>Boolean</td>
+<td>false</td>
+<td>Tells the pathfinder that it can path through a closed door assuming the AI will open the door</td>
+</tr>
+</table>
+<h4>Vanilla Entities that use this</h4>
+minecraft:spider, 
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:navigation.float">minecraft:navigation.float</p></h3>
+
+<h4>Description</h4>
+
+Describes to the mobs pathfinder how it can generate paths.
+
+<h4>Parameters</h4>
+
+<table border="1">
+<tr> <th>Name</th> <th>Type</th> <th>Default</th> <th>Description</th> </tr>
+<tr>
+<td>can_pass_doors</td>
+<td>Boolean</td>
+<td>true</td>
+<td>Whether a path can be created through a door</td>
+</tr>
+<tr>
+<td>avoid_sun</td>
+<td>Boolean</td>
+<td>false</td>
+<td>Whether or not the pathfinder should avoid tiles that are exposed to the when creating paths</td>
+</tr>
+<tr>
+<td>can_float</td>
+<td>Boolean</td>
+<td>false</td>
+<td>Tells the pathfinder whether or not it can float in water</td>
+</tr>
+<tr>
+<td>avoid_portals</td>
+<td>Boolean</td>
+<td>false</td>
+<td>Tells the pathfinder to avoid portals (like nether portals) when finding a path</td>
+</tr>
+<tr>
+<td>avoid_water</td>
+<td>Boolean</td>
+<td>false</td>
+<td>Tells the pathfinder to avoid water when creating a path</td>
+</tr>
+<tr>
+<td>can_open_doors</td>
+<td>Boolean</td>
+<td>false</td>
+<td>Tells the pathfinder that it can path through a closed door assuming the AI will open the door</td>
+</tr>
+</table>
+<h4>Vanilla Entities that use this</h4>
+minecraft:ghast, 
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:navigation.swim">minecraft:navigation.swim</p></h3>
+
+<h4>Description</h4>
+
+Describes to the mobs pathfinder how it can generate paths.
+
+<h4>Parameters</h4>
+
+<table border="1">
+<tr> <th>Name</th> <th>Type</th> <th>Default</th> <th>Description</th> </tr>
+<tr>
+<td>can_pass_doors</td>
+<td>Boolean</td>
+<td>true</td>
+<td>Whether a path can be created through a door</td>
+</tr>
+<tr>
+<td>avoid_sun</td>
+<td>Boolean</td>
+<td>false</td>
+<td>Whether or not the pathfinder should avoid tiles that are exposed to the when creating paths</td>
+</tr>
+<tr>
+<td>can_float</td>
+<td>Boolean</td>
+<td>false</td>
+<td>Tells the pathfinder whether or not it can float in water</td>
+</tr>
+<tr>
+<td>avoid_portals</td>
+<td>Boolean</td>
+<td>false</td>
+<td>Tells the pathfinder to avoid portals (like nether portals) when finding a path</td>
+</tr>
+<tr>
+<td>avoid_water</td>
+<td>Boolean</td>
+<td>false</td>
+<td>Tells the pathfinder to avoid water when creating a path</td>
+</tr>
+<tr>
+<td>can_open_doors</td>
+<td>Boolean</td>
+<td>false</td>
+<td>Tells the pathfinder that it can path through a closed door assuming the AI will open the door</td>
+</tr>
+</table>
+<h4>Vanilla Entities that use this</h4>
+minecraft:guardian, 
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:navigation.walk">minecraft:navigation.walk</p></h3>
+
+<h4>Description</h4>
+
+Describes to the mobs pathfinder how it can generate paths.
+
+<h4>Parameters</h4>
+
+<table border="1">
+<tr> <th>Name</th> <th>Type</th> <th>Default</th> <th>Description</th> </tr>
+<tr>
+<td>can_pass_doors</td>
+<td>Boolean</td>
+<td>true</td>
+<td>Whether a path can be created through a door</td>
+</tr>
+<tr>
+<td>avoid_sun</td>
+<td>Boolean</td>
+<td>false</td>
+<td>Whether or not the pathfinder should avoid tiles that are exposed to the when creating paths</td>
+</tr>
+<tr>
+<td>can_float</td>
+<td>Boolean</td>
+<td>false</td>
+<td>Tells the pathfinder whether or not it can float in water</td>
+</tr>
+<tr>
+<td>avoid_portals</td>
+<td>Boolean</td>
+<td>false</td>
+<td>Tells the pathfinder to avoid portals (like nether portals) when finding a path</td>
+</tr>
+<tr>
+<td>avoid_water</td>
+<td>Boolean</td>
+<td>false</td>
+<td>Tells the pathfinder to avoid water when creating a path</td>
+</tr>
+<tr>
+<td>can_open_doors</td>
+<td>Boolean</td>
+<td>false</td>
+<td>Tells the pathfinder that it can path through a closed door assuming the AI will open the door</td>
+</tr>
+</table>
+<h4>Vanilla Entities that use this</h4>
+minecraft:horse, 
+minecraft:evocation_illager, 
+minecraft:zombie_villager, 
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:peek">minecraft:peek</p></h3>
+
+<h4>Description</h4>
+
+Defines the entity's 'peek' behavior, defining the events that should be called during it
+
+<h4>Parameters</h4>
+
+<table border="1">
+<tr> <th>Name</th> <th>Type</th> <th>Default</th> <th>Description</th> </tr>
+<tr>
+<td>on_target_open</td>
+<td>Trigger</td>
+<td></td>
+<td>Event to call when the entity's target entity starts peeking</td>
+</tr>
+<tr>
+<td>on_close</td>
+<td>Trigger</td>
+<td></td>
+<td>Event to call when the entity is done peeking</td>
+</tr>
+<tr>
+<td>on_open</td>
+<td>Trigger</td>
+<td></td>
+<td>Event to call when the entity starts peeking</td>
+</tr>
+</table>
+<h4>Vanilla Entities that use this</h4>
+minecraft:shulker, 
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:projectile">minecraft:projectile</p></h3>
+
+<h4>Description</h4>
+
+Allows the entity to be a thrown entity.
+
+<h4>Parameters</h4>
+
+<table border="1">
+<tr> <th>Name</th> <th>Type</th> <th>Default</th> <th>Description</th> </tr>
+<tr>
+<td>homing</td>
+<td>Boolean</td>
+<td>false</td>
+<td>If true, the projectile homes in to the nearest entity</td>
+</tr>
+<tr>
+<td>gravity</td>
+<td>Decimal</td>
+<td>0</td>
+<td>The gravity applied to this entity when thrown. The higher the value, the faster the entity falls</td>
+</tr>
+<tr>
+<td>reflectOnHurt</td>
+<td>Boolean</td>
+<td>false</td>
+<td>If true, this entity will be reflected back when hit</td>
+</tr>
+<tr>
+<td>destroyOnHurt</td>
+<td>Boolean</td>
+<td>false</td>
+<td>If true, this entity will be destroyed when hit</td>
+</tr>
+<tr>
+<td>particle</td>
+<td>String</td>
+<td>iconcrack</td>
+<td>Particle to use upon collision</td>
+</tr>
+<tr>
+<td>angleoffset</td>
+<td>Decimal</td>
+<td>0</td>
+<td>Determines the angle at which the projectile is thrown</td>
+</tr>
+<tr>
+<td>offset</td>
+<td>Vector [a, b, c]</td>
+<td>[0, 0.5, 0]</td>
+<td>The offset from the entity's anchor where the projectile will spawn</td>
+</tr>
+<tr>
+<td>power</td>
+<td>Decimal</td>
+<td>1</td>
+<td>Determines the velocity of the projectile</td>
+</tr>
+<tr>
+<td>uncertaintyMultiplier</td>
+<td>Decimal</td>
+<td>0</td>
+<td>Determines how much difficulty affects accuracy. Accuracy is determined by the formula uncertaintyBase - difficultyLevel * uncertaintyMultiplier</td>
+</tr>
+<tr>
+<td>fireAffectedByGriefing</td>
+<td>Boolean</td>
+<td>false</td>
+<td>If true, whether the projectile causes fire is affected by the mob griefing game rule</td>
+</tr>
+<tr>
+<td>uncertaintyBase</td>
+<td>Decimal</td>
+<td>0</td>
+<td>The base accuracy. Accuracy is determined by the formula uncertaintyBase - difficultyLevel * uncertaintyMultiplier</td>
+</tr>
+<tr>
+<td>critParticleOnHurt</td>
+<td>Boolean</td>
+<td>false</td>
+<td>If true, the projectile will produce additional particles when a critical hit happens</td>
+</tr>
+<tr>
+<td>knockback</td>
+<td>Boolean</td>
+<td>true</td>
+<td>If true, the projectile will knock back the entity it hits</td>
+</tr>
+<tr>
+<td>filter</td>
+<td>String</td>
+<td></td>
+<td>Entity Definitions defined here can't be hurt by the projectile</td>
+</tr>
+<tr>
+<td>semirandomdiffdamage</td>
+<td>Boolean</td>
+<td>false</td>
+<td>If true, damage will be randomized based on damage and speed</td>
+</tr>
+<tr>
+<td>catchFire</td>
+<td>Boolean</td>
+<td>false</td>
+<td>If true, the entity hit will be set on fire</td>
+</tr>
+<tr>
+<td>onFireTime</td>
+<td>Decimal</td>
+<td>5</td>
+<td>Time in seconds that the entity hit will be on fire for</td>
+</tr>
+<tr>
+<td>potionEffect</td>
+<td>Integer</td>
+<td>-1</td>
+<td>Defines the effect the arrow will apply to the entity it hits</td>
+</tr>
+<tr>
+<td>splashRange</td>
+<td>Decimal</td>
+<td>4</td>
+<td>Radius in blocks of the 'splash' effect</td>
+</tr>
+<tr>
+<td>shoottarget</td>
+<td>Boolean</td>
+<td>true</td>
+<td>If true, the projectile will be shot towards the target of the entity firing it</td>
+</tr>
+<tr>
+<td>splashPotion</td>
+<td>Boolean</td>
+<td>false</td>
+<td>If true, the projectile will be treated like a splash potion</td>
+</tr>
+<tr>
+<td>isdangerous</td>
+<td>Boolean</td>
+<td>false</td>
+<td>If true, the projectile will be treated as dangerous to the players</td>
+</tr>
+<tr>
+<td>shootSound</td>
+<td>String</td>
+<td></td>
+<td>The sound that plays when the projectile is shot</td>
+</tr>
+<tr>
+<td>hitSound</td>
+<td>String</td>
+<td></td>
+<td>The sound that plays when the projectile hits something</td>
+</tr>
+<tr>
+<td>inertia</td>
+<td>Decimal</td>
+<td>0</td>
+<td>The fraction of the projectile's speed maintained every frame while traveling in air</td>
+</tr>
+<tr>
+<td>shouldbounce</td>
+<td>Boolean</td>
+<td>false</td>
+<td>If true, the projectile will bounce upon hit</td>
+</tr>
+<tr>
+<td>liquid_inertia</td>
+<td>Decimal</td>
+<td>0</td>
+<td>The fraction of the projectile's speed maintained every frame while traveling in water</td>
+</tr>
+</table>
+<h4>Vanilla Entities that use this</h4>
+minecraft:arrow, 
+minecraft:xp_bottle, 
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:rail_movement">minecraft:rail_movement</p></h3>
+
+<h4>Description</h4>
+
+Defines the entity's movement on the rails. An entity with this component is only allowed to move on the rail.
+
+<h4>Parameters</h4>
+
+<table border="1">
+<tr> <th>Name</th> <th>Type</th> <th>Default</th> <th>Description</th> </tr>
+<tr>
+<td>max_speed</td>
+<td>Decimal</td>
+<td>0</td>
+<td>Maximum speed that this entity will move at when on the rail</td>
+</tr>
+</table>
+<h4>Vanilla Entities that use this</h4>
+minecraft:tnt_minecart, 
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:rail_sensor">minecraft:rail_sensor</p></h3>
+
+<h4>Description</h4>
+
+Defines the behavior of the entity when the rail gets activated or deactivated.
+
+<h4>Parameters</h4>
+
+<table border="1">
+<tr> <th>Name</th> <th>Type</th> <th>Default</th> <th>Description</th> </tr>
+<tr>
+<td>tick_command_block_on_activate</td>
+<td>Boolean</td>
+<td>true</td>
+<td>If true, command blocks will start ticking when passing over an activated rail</td>
+</tr>
+<tr>
+<td>check_block_types</td>
+<td>Boolean</td>
+<td>false</td>
+<td>If true, on tick this entity will trigger its on_deactivate behavior</td>
+</tr>
+<tr>
+<td>eject_on_activate</td>
+<td>Boolean</td>
+<td>true</td>
+<td>If true, this entity will eject all of its riders when it passes over an activated rail</td>
+</tr>
+<tr>
+<td>tick_command_block_on_deactivate</td>
+<td>Boolean</td>
+<td>false</td>
+<td>If false, command blocks will stop ticking when passing over a deactivated rail</td>
+</tr>
+<tr>
+<td>on_deactivate</td>
+<td>Trigger</td>
+<td></td>
+<td>Event to call when the rail is deactivated</td>
+</tr>
+<tr>
+<td>on_activate</td>
+<td>Trigger</td>
+<td></td>
+<td>Event to call when the rail is activated</td>
+</tr>
+<tr>
+<td>eject_on_deactivate</td>
+<td>Boolean</td>
+<td>false</td>
+<td>If true, this entity will eject all of its riders when it passes over a deactivated rail</td>
+</tr>
+</table>
+<h4>Vanilla Entities that use this</h4>
+minecraft:tnt_minecart, 
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:rideable">minecraft:rideable</p></h3>
+
+<h4>Description</h4>
+
+Determines whether this entity can be ridden. Allows specifying the different seat positions and quantity.
+
+<h4>Parameters</h4>
+
+<table border="1">
+<tr> <th>Name</th> <th>Type</th> <th>Default</th> <th>Description</th> </tr>
+<tr>
+<td>seat_count</td>
+<td>Integer</td>
+<td>1</td>
+<td>The number of entities that can ride this entity at the same time</td>
+</tr>
+<tr>
+<td>crouching_skip_interact</td>
+<td>Boolean</td>
+<td>true</td>
+<td>If true, this entity can't be interacted with if the entity interacting with it is crouching</td>
+</tr>
+<tr>
+<td>interact_text</td>
+<td>String</td>
+<td></td>
+<td>The text to display when the player can interact with the entity when playing with Touch-screen controls</td>
+</tr>
+<tr>
+<td>seats</td>
+<td>String</td>
+<td></td>
+<td>The list of positions and number of riders for each position for entities riding this entity</td>
+</tr>
+<tr>
+<td>controlling_seat</td>
+<td>Integer</td>
+<td>0</td>
+<td>The seat that designates the driver of the entity</td>
+</tr>
+<tr>
+<td>family_types</td>
+<td>List</td>
+<td></td>
+<td>List of entities that can ride this entity</td>
+</tr>
+</table>
+<h4>Vanilla Entities that use this</h4>
+minecraft:horse, 
+minecraft:zombie_villager, 
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:scale_by_age">minecraft:scale_by_age</p></h3>
+
+<h4>Description</h4>
+
+Defines the entity's size interpolation based on the entity's age.
+
+<h4>Parameters</h4>
+
+<table border="1">
+<tr> <th>Name</th> <th>Type</th> <th>Default</th> <th>Description</th> </tr>
+<tr>
+<td>start_scale</td>
+<td>Decimal</td>
+<td>1</td>
+<td>Initial scale of the newborn entity</td>
+</tr>
+<tr>
+<td>end_scale</td>
+<td>Decimal</td>
+<td>1</td>
+<td>Ending scale of the entity when it's fully grown</td>
+</tr>
+</table>
+<h4>Vanilla Entities that use this</h4>
+minecraft:horse, 
+minecraft:mule, 
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:shareables">minecraft:shareables</p></h3>
+
+<h4>Description</h4>
+
+Defines a list of items the mob wants to share.
+
+<h4>Vanilla Entities that use this</h4>
+minecraft:villager, 
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:shooter">minecraft:shooter</p></h3>
+
+<h4>Description</h4>
+
+Defines the entity's ranged attack behavior.
+
+<h4>Parameters</h4>
+
+<table border="1">
+<tr> <th>Name</th> <th>Type</th> <th>Default</th> <th>Description</th> </tr>
+<tr>
+<td>def</td>
+<td>String</td>
+<td></td>
+<td>Entity definition to use as projectile for the ranged attack. The entity definition must have the projectile component to be able to be shot as a projectile</td>
+</tr>
+<tr>
+<td>auxVal</td>
+<td>Integer</td>
+<td>-1</td>
+<td>ID of the Potion effect to be applied on hit</td>
+</tr>
+</table>
+<h4>Vanilla Entities that use this</h4>
+minecraft:llama, 
+minecraft:shulker, 
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:sittable">minecraft:sittable</p></h3>
+
+<h4>Description</h4>
+
+Defines the entity's 'sit' state.
+
+<h4>Parameters</h4>
+
+<table border="1">
+<tr> <th>Name</th> <th>Type</th> <th>Default</th> <th>Description</th> </tr>
+<tr>
+<td>stand_event</td>
+<td>Trigger</td>
+<td></td>
+<td>Event to run when the entity exits the 'sit' state</td>
+</tr>
+<tr>
+<td>sit_event</td>
+<td>Trigger</td>
+<td></td>
+<td>Event to run when the entity enters the 'sit' state</td>
+</tr>
+</table>
+<h4>Vanilla Entities that use this</h4>
+minecraft:wolf, 
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:spawn_entity">minecraft:spawn_entity</p></h3>
+
+<h4>Description</h4>
+
+Adds a timer after which this entity will spawn another entity or item (similar to vanilla's chicken's egg-laying behavior.
+
+<h4>Parameters</h4>
+
+<table border="1">
+<tr> <th>Name</th> <th>Type</th> <th>Default</th> <th>Description</th> </tr>
+<tr>
+<td>spawn_sound</td>
+<td>String</td>
+<td>plop</td>
+<td>Name of the sound effect to play when the entity is spawned</td>
+</tr>
+<tr>
+<td>max_wait_time</td>
+<td>Integer</td>
+<td>600</td>
+<td>Maximum amount of time to randomly wait in seconds before another entity is spawned</td>
+</tr>
+<tr>
+<td>min_wait_time</td>
+<td>Integer</td>
+<td>300</td>
+<td>Minimum amount of time to randomly wait in seconds before another entity is spawned</td>
+</tr>
+<tr>
+<td>spawn_method</td>
+<td>String</td>
+<td>born</td>
+<td>Method to use to spawn the entity</td>
+</tr>
+<tr>
+<td>spawn_entity</td>
+<td>String</td>
+<td></td>
+<td>Identifier of the entity to spawn. Leave empty to spawn the item defined above instead</td>
+</tr>
+<tr>
+<td>spawn_item</td>
+<td>String</td>
+<td>egg</td>
+<td>Name of the item to spawn</td>
+</tr>
+<tr>
+<td>spawn_event</td>
+<td>String</td>
+<td>minecraft:entity_born</td>
+<td>Event to call when the entity is spawned</td>
+</tr>
+</table>
+<h4>Vanilla Entities that use this</h4>
+minecraft:chicken, 
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:tameable">minecraft:tameable</p></h3>
+
+<h4>Description</h4>
+
+Defines the rules for a mob to be tamed by the player.
+
+<h4>Parameters</h4>
+
+<table border="1">
+<tr> <th>Name</th> <th>Type</th> <th>Default</th> <th>Description</th> </tr>
+<tr>
+<td>tameItems</td>
+<td>List</td>
+<td></td>
+<td>The list of items that can be used to tame this entity</td>
+</tr>
+<tr>
+<td>probability</td>
+<td>Decimal</td>
+<td>1</td>
+<td>The chance of taming the entity with each item use between 0.0 and 1.0, where 1.0 is 100%</td>
+</tr>
+<tr>
+<td>tame_event</td>
+<td>Trigger</td>
+<td></td>
+<td>Event to run when this entity becomes tamed</td>
+</tr>
+</table>
+<h4>Vanilla Entities that use this</h4>
+minecraft:wolf, 
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:tamemount">minecraft:tamemount</p></h3>
+
+<h4>Description</h4>
+
+Allows the Entity to be tamed by mounting it.
+
+<h4>Parameters</h4>
+
+<table border="1">
+<tr> <th>Name</th> <th>Type</th> <th>Default</th> <th>Description</th> </tr>
+<tr>
+<td>feedItems</td>
+<td>String</td>
+<td></td>
+<td>The list of items that can be used to increase the entity's temper and speed up the taming process</td>
+</tr>
+<tr>
+<td>feed_text</td>
+<td>String</td>
+<td></td>
+<td>The text that shows in the feeding interact button</td>
+</tr>
+<tr>
+<td>maxTemper</td>
+<td>Integer</td>
+<td>100</td>
+<td>The maximum value for the entity's random starting temper</td>
+</tr>
+<tr>
+<td>minTemper</td>
+<td>Integer</td>
+<td>0</td>
+<td>The minimum value for the entity's random starting temper</td>
+</tr>
+<tr>
+<td>attemptTemperMod</td>
+<td>Integer</td>
+<td>5</td>
+<td>The amount the entity's temper will increase when mounted</td>
+</tr>
+<tr>
+<td>ride_text</td>
+<td>String</td>
+<td></td>
+<td>The text that shows in the riding interact button</td>
+</tr>
+<tr>
+<td>tame_event</td>
+<td>Trigger</td>
+<td></td>
+<td>Event that triggers when the entity becomes tamed</td>
+</tr>
+<tr>
+<td>autoRejectItems</td>
+<td>String</td>
+<td></td>
+<td>The list of items that, if carried while interacting with the entity, will anger it</td>
+</tr>
+</table>
+<h4>Vanilla Entities that use this</h4>
+minecraft:horse, 
+minecraft:mule, 
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:target_nearby_sensor">minecraft:target_nearby_sensor</p></h3>
+
+<h4>Description</h4>
+
+Defines the entity's range within which it can see or sense other entities to target them.
+
+<h4>Parameters</h4>
+
+<table border="1">
+<tr> <th>Name</th> <th>Type</th> <th>Default</th> <th>Description</th> </tr>
+<tr>
+<td>inside_range</td>
+<td>Decimal</td>
+<td>1</td>
+<td>Maximum distance in blocks that another entity will be considered in the 'inside' range</td>
+</tr>
+<tr>
+<td>outside_range</td>
+<td>Decimal</td>
+<td>5</td>
+<td>Maximum distance in blocks that another entity will be considered in the 'outside' range</td>
+</tr>
+<tr>
+<td>on_outside_range</td>
+<td>Trigger</td>
+<td></td>
+<td>Event to call when an entity gets in the outside range. Can specify 'event' for the name of the event and 'target' for the target of the event</td>
+</tr>
+<tr>
+<td>on_inside_range</td>
+<td>Trigger</td>
+<td></td>
+<td>Event to call when an entity gets in the inside range. Can specify 'event' for the name of the event and 'target' for the target of the event</td>
+</tr>
+</table>
+<h4>Vanilla Entities that use this</h4>
+minecraft:guardian, 
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:teleport">minecraft:teleport</p></h3>
+
+<h4>Description</h4>
+
+Defines an entity's teleporting behavior.
+
+<h4>Parameters</h4>
+
+<table border="1">
+<tr> <th>Name</th> <th>Type</th> <th>Default</th> <th>Description</th> </tr>
+<tr>
+<td>randomTeleports</td>
+<td>Boolean</td>
+<td>true</td>
+<td>If true, the entity will teleport randomly</td>
+</tr>
+<tr>
+<td>maxRandomTeleportTime</td>
+<td>Decimal</td>
+<td>20</td>
+<td>Maximum amount of time in seconds between random teleports</td>
+</tr>
+<tr>
+<td>minRandomTeleportTime</td>
+<td>Decimal</td>
+<td>0</td>
+<td>Minimum amount of time in seconds between random teleports</td>
+</tr>
+<tr>
+<td>target_teleport_chance</td>
+<td>Decimal</td>
+<td>1</td>
+<td>The chance that the entity will teleport between 0.0 and 1.0. 1.0 means 100%</td>
+</tr>
+<tr>
+<td>targetDistance</td>
+<td>Decimal</td>
+<td>16</td>
+<td>Maximum distance the entity will teleport when chasing a target</td>
+</tr>
+<tr>
+<td>randomTeleportCube</td>
+<td>Vector [a, b, c]</td>
+<td>[32, 16, 32]</td>
+<td>Entity will teleport to a random position within the area defined by this cube</td>
+</tr>
+<tr>
+<td>darkTeleportChance</td>
+<td>Decimal</td>
+<td>0</td>
+<td>Modifies the chance that the entity will teleport if the entity is in darkness</td>
+</tr>
+<tr>
+<td>lightTeleportChance</td>
+<td>Decimal</td>
+<td>0</td>
+<td>Modifies the chance that the entity will teleport if the entity is in daylight</td>
+</tr>
+</table>
+<h4>Vanilla Entities that use this</h4>
+minecraft:enderman, 
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:timer">minecraft:timer</p></h3>
+
+<h4>Description</h4>
+
+Adds a timer after which an event will fire.
+
+<h4>Parameters</h4>
+
+<table border="1">
+<tr> <th>Name</th> <th>Type</th> <th>Default</th> <th>Description</th> </tr>
+<tr>
+<td>looping</td>
+<td>Boolean</td>
+<td>true</td>
+<td>If true, the timer will restart every time after it fires</td>
+</tr>
+<tr>
+<td>time_down_event</td>
+<td>Trigger</td>
+<td></td>
+<td>Event to fire when the time on the timer runs out</td>
+</tr>
+<tr>
+<td>time</td>
+<td>Range [a, b]</td>
+<td></td>
+<td>Amount of time in seconds for the timer. Can be specified as a number or a pair of numbers (min and max)</td>
+</tr>
+<tr>
+<td>randomInterval</td>
+<td>Boolean</td>
+<td>true</td>
+<td>If true, the amount of time on the timer will be random between the min and max values specified in time</td>
+</tr>
+</table>
+<h4>Vanilla Entities that use this</h4>
+minecraft:guardian, 
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:trade_table">minecraft:trade_table</p></h3>
+
+<h4>Description</h4>
+
+Defines this entity's ability to trade with players.
+
+<h4>Parameters</h4>
+
+<table border="1">
+<tr> <th>Name</th> <th>Type</th> <th>Default</th> <th>Description</th> </tr>
+<tr>
+<td>display_name</td>
+<td>String</td>
+<td></td>
+<td>Name to be displayed while trading with this entity</td>
+</tr>
+<tr>
+<td>table</td>
+<td>String</td>
+<td></td>
+<td>File path relative to the resource pack root for this entity's trades</td>
+</tr>
+</table>
+<h4>Vanilla Entities that use this</h4>
+minecraft:villager, 
+<a href="#Index">Back to top</a><br><br>
+
+<h3><p id="minecraft:transformation">minecraft:transformation</p></h3>
+
+<h4>Description</h4>
+
+Defines an entity's transformation from the current definition into another
+
+<h4>Parameters</h4>
+
+<table border="1">
+<tr> <th>Name</th> <th>Type</th> <th>Default</th> <th>Description</th> </tr>
+<tr>
+<td>begin_transform_sound</td>
+<td>List</td>
+<td></td>
+<td>Sound to play when the transformation starts</td>
+</tr>
+<tr>
+<td>into</td>
+<td>String</td>
+<td></td>
+<td>Entity Definition that this entity will transform into</td>
+</tr>
+<tr>
+<td>transformation_sound</td>
+<td>List</td>
+<td></td>
+<td>Sound to play when the entity is done transforming</td>
+</tr>
+<tr>
+<td>add</td>
+<td>String</td>
+<td></td>
+<td>List of components to add to the entity after the transformation</td>
+</tr>
+<tr>
+<td>component_groups</td>
+<td>List</td>
+<td></td>
+<td>Names of component groups to add</td>
+</tr>
+<tr>
+<td>delay</td>
+<td>String</td>
+<td></td>
+<td>Defines the properties of the delay for the transformation</td>
+</tr>
+<tr>
+<td>value</td>
+<td>Decimal</td>
+<td>0</td>
+<td>Time in seconds before the entity transforms</td>
+</tr>
+<tr>
+<td>block_assist_chance</td>
+<td>Decimal</td>
+<td>0</td>
+<td>Chance that the entity will look for nearby blocks that can speed up the transformation. Value must be between 0.0 and 1.0</td>
+</tr>
+<tr>
+<td>block_radius</td>
+<td>Integer</td>
+<td>0</td>
+<td>Distance in Blocks that the entity will search for blocks that can help the transformation</td>
+</tr>
+<tr>
+<td>block_max</td>
+<td>Integer</td>
+<td>0</td>
+<td>Maximum number of blocks the entity will look for to aid in the transformation. If not defined or set to 0, it will be set to the block radius</td>
+</tr>
+<tr>
+<td>block_chance</td>
+<td>Decimal</td>
+<td>0</td>
+<td>Chance that, once a block is found, will help speed up the transformation</td>
+</tr>
+<tr>
+<td>block_types</td>
+<td>List</td>
+<td></td>
+<td>List of blocks that can help the transformation of this entity</td>
+</tr>
+</table>
+<h4>Vanilla Entities that use this</h4>
+minecraft:zombie_villager, 
+<a href="#Index">Back to top</a><br><br>
+
+
+<h2><p id="EntityTriggers">Entity Triggers</p></h2>
+<table border="1">
+<tr> <th>Name</th> <th>Default</th> <th>Description</th> </tr>
+<tr>
+<td>minecraft:on_friendly_anger</td>
+<td></td>
+<td>Adds the On Friendly Anger trigger to this entity.</td>
+</tr>
+<tr>
+<td>minecraft:on_death</td>
+<td></td>
+<td>Adds a trigger to call on this entity's death.</td>
+</tr>
+<tr>
+<td>minecraft:on_hurt_by_player</td>
+<td></td>
+<td>Adds a trigger to call when this entity is attacked by the player.</td>
+</tr>
+<tr>
+<td>minecraft:on_hurt</td>
+<td></td>
+<td>Adds a trigger to call when this entity takes damage.</td>
+</tr>
+<tr>
+<td>minecraft:on_target_acquired</td>
+<td></td>
+<td>Adds a trigger to call when this entity finds a target.</td>
+</tr>
+<tr>
+<td>minecraft:on_start_takeoff</td>
+<td></td>
+<td>Adds a trigger to call when this entity starts flying.</td>
+</tr>
+<tr>
+<td>minecraft:on_start_landing</td>
+<td></td>
+<td>Adds a trigger to call when this entity lands.</td>
+</tr>
+<tr>
+<td>minecraft:on_ignite</td>
+<td></td>
+<td>Adds a trigger to call when this entity is set on fire.</td>
+</tr>
+<tr>
+<td>minecraft:on_target_escape</td>
+<td></td>
+<td>Adds a trigger to call when this entity loses the target it currently has.</td>
+</tr>
+</table>
+
+
+<a href="#Index">Back to top</a>
+<h2><p id="Filters">Filters</p></h2>
+<table border="1">
+<tr> <th>Parameter</th> <th>Description</th> </tr>
+<tr>
+<td>with_item</td>
+<td>Return true if any of the items listed is in the owning entity's hands.</td>
+</tr>
+<tr>
+<td>target_without_armor</td>
+<td>Returns true if all of the items listed aren't being worn by the owning entity's target.</td>
+</tr>
+<tr>
+<td>player_with_instabuild</td>
+<td>Checks if the player is in creative mode.</td>
+</tr>
+<tr>
+<td>without_item</td>
+<td>Return true if all of the items listed aren't in the owning entity's hands.</td>
+</tr>
+<tr>
+<td>without_armor</td>
+<td>Return true if all of the items listed aren't being worn by the owning entity.</td>
+</tr>
+<tr>
+<td>with_armor</td>
+<td>Return true if any of the items listed are being worn by the owning entity.</td>
+</tr>
+<tr>
+<td>without_equipment</td>
+<td>Return true if all of the items listed aren't in the hands or being worn by the owning entity.</td>
+</tr>
+<tr>
+<td>target_without_components</td>
+<td>Returns true if the owning entity's target has none of the components listed.</td>
+</tr>
+<tr>
+<td>with_equipment</td>
+<td>Return true if all of the items listed are either in the hands or being worn by the owning entity.</td>
+</tr>
+<tr>
+<td>with_families</td>
+<td>Returns true if the owning entity has any of the families listed.</td>
+</tr>
+<tr>
+<td>without_components</td>
+<td>Returns true if the owning entity has none of the components listed.</td>
+</tr>
+<tr>
+<td>target_without_families</td>
+<td>Returns true if the owning entity's target has none of the families listed.</td>
+</tr>
+<tr>
+<td>with_components</td>
+<td>Returns true if the owning entity has all the components listed.</td>
+</tr>
+<tr>
+<td>other_without_color</td>
+<td>Returns true if the entity being filtered is not of a specific color.</td>
+</tr>
+<tr>
+<td>without_families</td>
+<td>Returns true if the owning entity has none of the families listed.</td>
+</tr>
+<tr>
+<td>is_in_caravan</td>
+<td>Returns true if the owning entity is part of a caravan.</td>
+</tr>
+<tr>
+<td>other_with_color</td>
+<td>Returns true if the entity being filtered is of a specific color.</td>
+</tr>
+<tr>
+<td>target_without_variant</td>
+<td>Returns true if the owning entity's target is not a variant.</td>
+</tr>
+<tr>
+<td>is_not_in_caravan</td>
+<td>Returns true if the owning entity is not part of a caravan.</td>
+</tr>
+<tr>
+<td>with_variant</td>
+<td>Returns true if the owning entity is a variant.</td>
+</tr>
+<tr>
+<td>is_game_rule_true</td>
+<td>Returns true if the specified game rule is active.</td>
+</tr>
+<tr>
+<td>without_variant</td>
+<td>Returns true if the owning entity is not a variant.</td>
+</tr>
+<tr>
+<td>with_environment_any</td>
+<td>Return true if any of the environmental conditions listed exist in the owning entity's surroundings.</td>
+</tr>
+<tr>
+<td>with_color</td>
+<td>Returns true if the owning entity is a special color.</td>
+</tr>
+<tr>
+<td>without_color</td>
+<td>Returns true if the owning entity is not a special color.</td>
+</tr>
+<tr>
+<td>other_without_armor</td>
+<td>Return true if all of the items listed aren't being worn by the entity being filtered.</td>
+</tr>
+<tr>
+<td>with_damage_cause</td>
+<td>Only valid in damage sensor trigger. Return true if damage is of type listed.</td>
+</tr>
+<tr>
+<td>with_damage_fatal</td>
+<td>Only valid in damage sensor trigger. Return true if damage taken is fatal.</td>
+</tr>
+<tr>
+<td>without_environment_any</td>
+<td>Return true if any of the environmental conditions listed do not exist in the owning entity's surroundings.</td>
+</tr>
+<tr>
+<td>with_environment_every</td>
+<td>Return true if all of the environmental conditions listed exist in the owning entity's surroundings.</td>
+</tr>
+<tr>
+<td>without_environment_every</td>
+<td>Return true if all of the environmental conditions listed do not exist in the owning entity's surroundings.</td>
+</tr>
+<tr>
+<td>target_with_item</td>
+<td>Returns true if any of the items listed is in the owning entity's targets hands.</td>
+</tr>
+<tr>
+<td>other_with_equipment</td>
+<td>Return true if all of the items listed are either in the hands or being worn by the entity being filtered.</td>
+</tr>
+<tr>
+<td>target_without_item</td>
+<td>Returns true if all of the items listed aren't in the owning entity's targets hands.</td>
+</tr>
+<tr>
+<td>other_without_components</td>
+<td>Returns true if the entity being filtered has none of the components listed.</td>
+</tr>
+<tr>
+<td>target_with_armor</td>
+<td>Returns true if any of the items listed are being worn by the owning entity's target.</td>
+</tr>
+<tr>
+<td>target_with_equipment</td>
+<td>Returns true if all of the items listed are either in the hands or being worn by the owning entity's target.</td>
+</tr>
+<tr>
+<td>other_is_owner</td>
+<td>Returns true if the entity being filtered is owned by this entity.</td>
+</tr>
+<tr>
+<td>target_without_equipment</td>
+<td>Returns true if all of the items listed aren't in the hands or being worn by the owning entity's target.</td>
+</tr>
+<tr>
+<td>target_with_components</td>
+<td>Returns true if the owning entity's target has all the components listed.</td>
+</tr>
+<tr>
+<td>other_with_families</td>
+<td>Returns true if the entity being filtered has any of the families listed.</td>
+</tr>
+<tr>
+<td>target_with_families</td>
+<td>Returns true if the owning entity's target has any of the families listed.</td>
+</tr>
+<tr>
+<td>other_without_variant</td>
+<td>Returns true if the entity being filtered is not a variant.</td>
+</tr>
+<tr>
+<td>target_with_variant</td>
+<td>Returns true if the owning entity's target is a variant.</td>
+</tr>
+<tr>
+<td>target_with_color</td>
+<td>Returns true if the owning entity's target is of a specific color.</td>
+</tr>
+<tr>
+<td>target_without_color</td>
+<td>Returns true if the owning entity's target is not of a specific color.</td>
+</tr>
+<tr>
+<td>other_with_item</td>
+<td>Return true if any of the items listed is in the hands of the entity being filtered.</td>
+</tr>
+<tr>
+<td>other_without_item</td>
+<td>Return true if all of the items listed aren't in the hands of the entity being filtered.</td>
+</tr>
+<tr>
+<td>other_with_armor</td>
+<td>Return true if any of the items listed are being worn by entity being filtered.</td>
+</tr>
+<tr>
+<td>other_without_equipment</td>
+<td>Return true if all of the items listed aren't in the hands or being worn by the entity being filtered.</td>
+</tr>
+<tr>
+<td>other_with_components</td>
+<td>Returns true if the entity being filtered has all the components listed.</td>
+</tr>
+<tr>
+<td>other_without_families</td>
+<td>Returns true if the entity being filtered has none of the families listed.</td>
+</tr>
+<tr>
+<td>other_is_target</td>
+<td>Returns true if the entity being filtered is this entity's current target.</td>
+</tr>
+<tr>
+<td>other_is_in_caravan</td>
+<td>Returns true if the entity being filtered is in a caravan.</td>
+</tr>
+<tr>
+<td>other_is_not_in_caravan</td>
+<td>Returns true if the entity being filtered is not in a caravan.</td>
+</tr>
+<tr>
+<td>other_with_variant</td>
+<td>Returns true if the entity being filtered is a variant.</td>
+</tr>
+<tr>
+<td>is_world_difficulty</td>
+<td>Returns true if the world has the specified difficulty set.</td>
+</tr>
+<tr>
+<td>is_not_world_difficulty</td>
+<td>Returns true if the world does not have the specified difficulty set.</td>
+</tr>
+<tr>
+<td>is_game_rule_false</td>
+<td>Returns true if the specified game rule is not active.</td>
+</tr>
+</table>
+
+
+<a href="#Index">Back to top</a>
+<h2><p id="Conditions">Environment Filter Conditions</p></h2>
+<table border="1">
+<tr> <th>Condition</th> <th>Description</th> </tr>
+<tr>
+<td>underground</td>
+<td></td>
+</tr>
+<tr>
+<td>surface</td>
+<td></td>
+</tr>
+<tr>
+<td>altitude_greater</td>
+<td></td>
+</tr>
+<tr>
+<td>altitude_less</td>
+<td></td>
+</tr>
+<tr>
+<td>brightness_greater</td>
+<td></td>
+</tr>
+<tr>
+<td>brightness_less</td>
+<td></td>
+</tr>
+<tr>
+<td>night</td>
+<td></td>
+</tr>
+<tr>
+<td>day</td>
+<td></td>
+</tr>
+<tr>
+<td>biome</td>
+<td></td>
+</tr>
+</table>
+
+
+<a href="#Index">Back to top</a>
+<h2><p id="Biomes">Biomes</p></h2>
+<table border="1">
+<tr> <th>Biome</th> </tr>
+<tr>
+<td>beach</td>
+</tr>
+<tr>
+<td>mesa</td>
+</tr>
+<tr>
+<td>jungle</td>
+</tr>
+<tr>
+<td>swamp</td>
+</tr>
+<tr>
+<td>desert</td>
+</tr>
+<tr>
+<td>flat</td>
+</tr>
+<tr>
+<td>river</td>
+</tr>
+<tr>
+<td>the_nether</td>
+</tr>
+<tr>
+<td>plain</td>
+</tr>
+<tr>
+<td>forest</td>
+</tr>
+<tr>
+<td>extreme_hills</td>
+</tr>
+<tr>
+<td>ice</td>
+</tr>
+<tr>
+<td>mushroom_island</td>
+</tr>
+<tr>
+<td>ocean</td>
+</tr>
+<tr>
+<td>savanna</td>
+</tr>
+<tr>
+<td>stone_beach</td>
+</tr>
+<tr>
+<td>taiga</td>
+</tr>
+<tr>
+<td>the_end</td>
+</tr>
+</table>
+
+
+<a href="#Index">Back to top</a>
+<h2><p id="AIGoals">AI Goals</p></h2>
+<table border="1">
+<tr> <th>Behavior</th> <th>Description</th> </tr>
+<tr>
+<td>minecraft:behavior.avoid_mob_type</td>
+<td>Allows this entity to avoid certain mob types.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.beg</td>
+<td>Allows this mob to look at and follow the player that holds food they like.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.break_door</td>
+<td>Allows this mob to break doors.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.breed</td>
+<td>Allows this mob to breed with other mobs.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.charge_attack</td>
+<td>Allows the mob to attack its target by running at it.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.controlled_by_player</td>
+<td>Allows the mob to be controlled by the player.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.defend_village_target</td>
+<td>Allows the mob to stay in the village and fight mobs hostile to the villagers.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.door_interact</td>
+<td>Allows the mob to open and close doors.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.dragonchargeplayer</td>
+<td>Allows the dragon to attack a player by flying fast at them. The player is chosen by the dragonscanninggoal. Can only be used by the Ender Dragon.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.dragondeath</td>
+<td>Allows the dragon to go out with glory. This controls the Ender Dragon's death animation and can't be used by other mobs.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.dragonflaming</td>
+<td>Allows the dragon to use its flame breath attack. Can only be used by the Ender Dragon.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.dragonholdingpattern</td>
+<td>Allows the Dragon to fly around in a circle around the center podium. Can only be used by the Ender Dragon.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.dragonlanding</td>
+<td>Allows the Dragon to stop flying and transition into perching mode. Can only be used by the Ender Dragon.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.dragonscanning</td>
+<td>Allows the dragon to look around for a player to attack while in perch mode. Can only be used by the Ender Dragon.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.dragonstrafeplayer</td>
+<td>Allows the dragon to fly around looking for a player and shoot fireballs at them. Can only be used by the Ender Dragon.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.dragontakeoff</td>
+<td>Allows the dragon to leave perch mode and go back to flying around. Can only be used by the Ender Dragon.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.eat_block</td>
+<td>Allows the mob to eat a block (for example, sheeps eating grass).</td>
+</tr>
+<tr>
+<td>minecraft:behavior.enderman_leave_block</td>
+<td>Allows the enderman to drop a block they are carrying. Can only be used by Endermen.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.enderman_take_block</td>
+<td>Allows the enderman to take a block and carry it around. Can only be used by Endermen.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.find_mount</td>
+<td>Allows the mob to look around for another mob to ride atop it.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.flee_sun</td>
+<td>Allows the mob to run away from direct sunlight and seek shade.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.float</td>
+<td>Allows the mob to stay afloat while swimming.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.float_wander</td>
+<td>Allows the mob to float around like the Ghast.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.follow_caravan</td>
+<td>Allows the mob to follow mobs that are in a caravan.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.follow_owner</td>
+<td>Allows the mob to follow the player that owns them.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.follow_parent</td>
+<td>Allows the mob to follow their parent around.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.guardian_attack</td>
+<td>Allows the guardian to use its laser beam attack. Can only be used by Guardians and Elder Guardians.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.harvest_farm_block</td>
+<td>Allows the villager to harvest nearby farms. Can only be used by Villagers.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.hurt_by_target</td>
+<td>Allows the mob to target another mob that hurts them.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.leap_at_target</td>
+<td>Allows monsters to jump at and attack their target. Can only be used by hostile mobs.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.look_at_entity</td>
+<td>Allows the mob to look at nearby entities.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.look_at_player</td>
+<td>Allows the mob to look at the player when the player is nearby.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.look_at_target</td>
+<td>Allows the mob to look at the entity they are targetting.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.look_at_trading_player</td>
+<td>Allows the mob to look at the player they are trading with.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.make_love</td>
+<td>Allows the villager to look for a mate to spawn other villagers with. Can only be used by Villagers.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.melee_attack</td>
+<td>Allows the mob to use close combat melee attacks.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.mount_pathing</td>
+<td>Allows the mob to move around on its own while mounted.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.move_indoors</td>
+<td>Can only be used by Villagers. Allows them to seek shelter indoors.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.move_through_village</td>
+<td>Allows mob to path through villages.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.move_towards_restriction</td>
+<td>Allows mob to move towards a defined area that the mob should be restricted to.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.move_towards_target</td>
+<td>Allows mob to move towards its current target.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.nearest_attackable_target</td>
+<td>Allows the mob to check for and pursue the nearest valid target.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.ocelot_sit_on_block</td>
+<td>Allows to mob to be able to sit in place like the ocelot.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.ocelotattack</td>
+<td>Allows the mob to attack like the ocelot.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.offer_flower</td>
+<td>Allows the mob to offer the player a flower like the Iron Golem does.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.open_door</td>
+<td>Allows the mob to open doors. Requires the mob to be able to path through doors, otherwise the mob won't even want to try opening them.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.owner_hurt_by_target</td>
+<td>Allows the mob to target another mob that hurts their owner.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.owner_hurt_target</td>
+<td>Allows the mob to target a mob that is hurt by their owner.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.panic</td>
+<td>Allows the mob to enter the panic state and run around in panic.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.peek</td>
+<td>Allows the mob to peek out. This is what the shulker uses to look out of its shell.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.pickup_items</td>
+<td>Allows the mob to pick up items on the ground.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.play</td>
+<td>Allows the mob to play with other baby villagers. This can only be used by Villagers.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.player_ride_tamed</td>
+<td>Allows the mob to be ridden by the player after being tamed.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.raid_garden</td>
+<td>Allows the mob to eat crops out of farms until they are full.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.random_look_around</td>
+<td>Allows the mob to randomly look around.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.random_stroll</td>
+<td>Allows a mob to randomly stroll around.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.ranged_attack</td>
+<td>Allows the mob to use ranged attacks like shooting arrows.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.receive_love</td>
+<td>Allows the villager to stop so another villager can breed with it. Can only be used by a Villager.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.restrict_open_door</td>
+<td>Allows the mob to stay indoors during night time.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.restrict_sun</td>
+<td>Allows the mob to automatically start avoiding the sun when its a clear day out.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.run_around_like_crazy</td>
+<td>Allows the mob to run around aimlessly.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.send_event</td>
+<td>Allows the mob to send an event to another mob.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.share_items</td>
+<td>Allows the mob to give items it has to others.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.silverfish_merge_with_stone</td>
+<td>Allows the mob to go into stone blocks like Silverfish do. Currently it can only be used by Silverfish.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.silverfish_wake_up_friends</td>
+<td>Allows the mob to alert mobs in nearby blocks to come out. Currently it can only be used by Silverfish.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.skeleton_horse_trap</td>
+<td>Allows Equine mobs to be Horse Traps and be triggered like them, spawning a lightning bolt and a bunch of horses when a player is nearby. Can only be used by Horses, Mules, Donkeys and Skeleton Horses.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.slime_attack</td>
+<td>Allows the mob to use a melee attack like the slime's.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.slime_float</td>
+<td>Allows the mob to float like slimes.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.slime_keep_on_jumping</td>
+<td>Allows the mob to continuously jump around like a slime.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.slime_random_direction</td>
+<td>Allows the mob to move in random directions like a slime.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.squid_dive</td>
+<td>Allows the squid to dive down in water. Can only be used by the Squid.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.squid_flee</td>
+<td>Allows the squid to swim away. Can only be used by the Squid.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.squid_idle</td>
+<td>Allows the squid to swim in place idly. Can only be used by the Squid.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.squid_move_away_from_ground</td>
+<td>Allows the squid to move away from ground blocks and back to water. Can only be used by the Squid.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.squid_out_of_water</td>
+<td>Allows the squid to stick to the ground when outside water. Can only be used by the Squid.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.stay_while_sitting</td>
+<td>Allows the mob to stay put while it is in a sitting state instead of doing something else.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.stomp_attack</td>
+<td>Allows the mob to use the stomp attack.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.summon_entity</td>
+<td>Allows the mob to attack the player by summoning other entities.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.swell</td>
+<td>Allows the creeper to swell up when a player is nearby. It can only be used by Creepers.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.take_flower</td>
+<td>Allows the mob to accept flowers from Iron Golems.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.tempt</td>
+<td>Allows the mob to be tempted by food they like.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.trade_with_player</td>
+<td>Allows the player to trade with this mob.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.vex_copy_owner_target</td>
+<td>Allows the mob to target the same entity its owner is targeting.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.vex_random_move</td>
+<td>Allows the mob to move around randomly like the Vex.</td>
+</tr>
+<tr>
+<td>minecraft:behavior.wither_random_attack_pos_goal</td>
+<td>Allows the wither to launch random attacks. Can only be used by the Wither Boss.</td>
+</tr>
+<tr>
+<td>minecraft:wither_target_highest_damage</td>
+<td>Allows the wither to target the player that has dealt the most damage to it. Can only be used by the Wither Boss.</td>
+</tr>
+</table><a href="#Index">Back to top</a>
