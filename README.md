@@ -1,0 +1,3 @@
+# mc_addon
+
+minecraftのアドオンです。
